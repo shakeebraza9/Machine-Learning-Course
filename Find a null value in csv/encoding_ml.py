@@ -1,7 +1,7 @@
 # category data ko numerical data ma convert krne k leya encoding use hote ha jyu k ml jo ha wo ha mathamatical pe banwa ha us pe category data work nhi krta ha 
 # one hot encoding using same data repet
-# one hot encoding use hote ha ennominal data type pe 
-#  ennominal data type wo hota ha jo data repet ho raha ho jasy gender colum us ma male ya female hi ho sakty ha 
+# one hot encoding use hote ha ordinal data type pe 
+#  ordinal data type wo hota ha jo data repet ho raha ho jasy gender colum us ma male ya female hi ho sakty ha 
 import pandas as pd
 from pandasgui import show
 from sklearn.preprocessing import OneHotEncoder
