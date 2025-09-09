@@ -12,4 +12,4 @@ dataset = pd.read_csv('loan.csv')
 # plt.show()
 
 sns.displot(dataset['ApplicantIncome'])
-plt.show()
+plt.show() 
