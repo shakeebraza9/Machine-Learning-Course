@@ -11,5 +11,8 @@ dataset = pd.read_csv('loan.csv')
 # sns.boxplot(x="CoapplicantIncome",data=dataset)
 # plt.show()
 
-sns.displot(dataset['ApplicantIncome'])
-plt.show() 
+# sns.displot(dataset['ApplicantIncome'])
+# plt.show() 
+
+l = [5,6,7,8,9,2,100] #outlear is an 100
+print(sum(l)/len(l))
