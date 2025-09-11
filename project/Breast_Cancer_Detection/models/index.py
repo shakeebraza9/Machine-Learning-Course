@@ -36,7 +36,7 @@ lg.fit(X_train,y_train)
 y_pred =    lg.predict(X_test)
 # print(y_pred)
 # print(accuracy_score(y_test,y_pred))
-print(X_train[10])
+print(X_train[21])
 # input_test = ([-0.23712907, -1.39998202, -1.24962228, -1.34520926, -1.10978518, -1.33264483,
 #                -0.30735463, -0.36555756, -0.69650228,  1.93033305,  0.95437877,  0.02752055,
 #                 1.96305996, -0.12095781, -0.35077918,  0.57276579,  0.7394992,   0.32065553,
@@ -61,5 +61,5 @@ else:
 
 
 
-import pickle
-pickle.dump(lg, open("model.pkl", "wb"))
+# import pickle
+# pickle.dump(lg, open("model.pkl", "wb"))
